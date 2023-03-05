@@ -1,6 +1,8 @@
 # Qlift
 Swift 5 API for Qt5
 
+please work
+
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Longhanks/qlift-swift-example/master/LICENSE)
 
 This package provides two things:
