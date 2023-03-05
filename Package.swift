@@ -10,7 +10,7 @@ let package = Package(
     targets: [
         .target(name: "Qlift", dependencies: ["CQlift"]),
         .target(name: "CQlift", dependencies: ["CQt5Widgets"]),
-        .systemLibrary(name: "CQt5Widgets", pkgConfig: "Qt5Widgets"),
+        .systemLibrary(name: "CQt5Widgets", pkgConfig: "Qt5Widgets", providers: [.brewItem(["qt@5"])]),
         .target(name: "qlift-uic")
     ],
     cxxLanguageStandard: .cxx1z
